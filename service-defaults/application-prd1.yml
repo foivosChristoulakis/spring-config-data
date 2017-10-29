@@ -1,4 +1,2 @@
 env:
   name: prd1
-enabled:
-  resetdata: false

@@ -1,4 +1,2 @@
 env:
   name: tst2
-enabled:
-  resetdata: true
