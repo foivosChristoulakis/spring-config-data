@@ -1,0 +1,34 @@
+git:
+  branch:
+    name: '@git.branch.name@'
+env:
+  name: no-env
+  project: coral-epos2
+  local:
+    domain: ${env.project}.${env.name}.local
+endpoints:
+  beans:
+    sensitive: false
+  health:
+    path: /ping
+management:
+  contextPath: /
+  health:
+    elasticsearch:
+      enabled: false
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api/${api.name}/docs/latest
+logstash:
+  destination: logs.coral-poc.co.uk
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false

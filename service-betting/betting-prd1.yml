@@ -1,0 +1,6 @@
+application:
+  name: coral-epos2-${env.name}-betting-service
+jobs:
+  lock:
+    check:
+      enabled: true

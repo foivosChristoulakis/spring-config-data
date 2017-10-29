@@ -1,0 +1,4 @@
+env:
+  name: dev0
+enabled:
+  resetdata: true

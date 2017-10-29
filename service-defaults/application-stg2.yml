@@ -1,0 +1,4 @@
+env:
+  name: stg2
+enabled:
+  resetdata: false
