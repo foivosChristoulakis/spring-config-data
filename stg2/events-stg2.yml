@@ -1,3 +1,0 @@
-application:
-  name: coral-epos2-${env.name}-events-service
-  url: http://localhost:8080/api
